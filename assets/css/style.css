@@ -153,7 +153,8 @@ header {
 }
 
 .top-menu {
-  background-color: #006431;
+  background-color: #fff;
+  color: #006431;
   padding: 7px 0px;
 }
 
@@ -172,6 +173,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 }
 
 .top-bar .social ul{
@@ -185,8 +187,8 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 5px;
-  background-color: #fff;
-  color: #006431;
+  background-color: #006431;
+  color: #fff;
   display: flex;
   transition: .5s;
   align-items: center;
@@ -204,7 +206,7 @@ header {
 }
 
 .top-box ul li a {
-  color: #fff;
+  color: #006431;
 }
 
 .top-box ul li i {
@@ -284,7 +286,7 @@ header {
 
 .menu .navbar-light .navbar-nav .nav-link:hover,
 .menu .navbar-light .navbar-nav .active {
-  color: #006431;
+  color: #fff;
 }
 
 .menu {
@@ -352,7 +354,7 @@ header {
 }
 
 .logo {
-  background-color: #eee;
+  background-color: #006431;
   position: absolute;
   top: 0;
   left: 0;
@@ -368,7 +370,7 @@ header {
 }
 
 .logo::after {
-  background: #eee;
+  background: #006431;
   content: '';
   width: 76px;
   height: 100%;
@@ -465,13 +467,13 @@ header {
   width: 37%;
   z-index: 999;
   padding:35px 20px;
-  background-color: #006431;
+  background-color: #fff;
   box-shadow: 0px 10px 20px 0px #0089ce2b;
 }
 .hero-section .form-box h2{
 margin: 0;
 font-size: 35px;
-color: #fff;
+color: #006431;
 line-height: 40px;
 }
 .form-box .f-group input,.form-box .f-group select,.form-box .f-group textarea{
@@ -480,10 +482,11 @@ padding: 16px 20px;
 border: none;
 margin-top: 25px;
 outline: none;
-background-color: #fff;
+border: 2px solid #006431 !important;
+color: 000 !important;
 }
 .form-box .f-group input::placeholder,.form-box .f-group textarea::placeholder{
-color: #000;
+color: #000 !important;
 }
 
 .form-box .f-group .sec-btn{
@@ -499,13 +502,13 @@ border: none;
   width: 100%;
   z-index: 999;
   padding:35px 20px;
-  background-color: #006431;
+  background-color: #fff;
   box-shadow: 0px 10px 20px 0px #0089ce2b;
 }
 .mobileform-section .form-box h2{
 margin: 0;
 font-size: 35px;
-color: #fff;
+color: #006431;
 line-height: 40px;
 }
 .form-box .f-group input,.form-box .f-group select,.form-box .f-group textarea{
@@ -657,7 +660,7 @@ border: none;
   font-size: 35px;
   font-weight: 700;
   margin-top: 10px;
-  color: #006431;
+  color: #fff;
   position: relative;
   line-height: 30px;
 }
@@ -975,7 +978,7 @@ border: none;
   margin-bottom: 0;
 }
 .footer-section .copy-right p a {
-  color: #006431;
+  color: #000;
   font-weight: 600;
 }
 /* ---Footer-Section-End--- */
@@ -1167,7 +1170,7 @@ border: none;
 
  .quote-section .form-box{
     padding:35px 20px;
-    background-image: linear-gradient(#006431,#006431);
+    /* background-image: linear-gradient(#006431,#006431); */
     box-shadow: 0px 10px 20px 0px #0089ce25;
   }
  .quote-section .form-box h2{
@@ -1427,7 +1430,7 @@ h2 {
     margin-left: -50px;
     padding: 5px ;
     text-align: center;
-    background-color: #fff;
+    background-color: #006431;
   }
   .menu .navbar-light .navbar-nav .nav-link{
     border-right: none;
