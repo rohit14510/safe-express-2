@@ -1554,3 +1554,21 @@ h2,.service-two .ser-box h2 {
 }
 
 }
+/* -------Now More Cities------ */
+.Service-area-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.Service-area-list li{
+  padding-right: 20px;
+}
+.Service-area-list li p{
+  background-color: #006431;
+  color: white;
+  padding: 5px;
+}
+.Service-area-list li::marker {
+  color: #006431; /* Disc color */
+}
