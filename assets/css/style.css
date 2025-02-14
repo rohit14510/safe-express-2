@@ -413,13 +413,13 @@ header {
 }
 .hero-section .hero-slide{
   padding: 150px 0px;
-  background-image: linear-gradient(#0064318e,#0064318e),url(../images/hero1.jpeg);
+  background-image: linear-gradient(#0064318e,#0064318e),url(../images/slider2.png.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .hero-section .hero-slide2{
-  background-image: linear-gradient(#0064318e,#0064318e),url(../images/hero2.webp) !important;
+  background-image: linear-gradient(#0064318e,#0064318e),url(../images/slider1.png.jpg) !important;
 }
 .hero-section .hero-slide h2{
   line-height: 60px;
