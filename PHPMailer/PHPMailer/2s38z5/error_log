@@ -1,0 +1,1 @@
+[27-Dec-2024 04:07:06 UTC] PHP Warning:  file_get_contents(/tmp/phpgSlWos#Ss/admin.php): Failed to open stream: No such file or directory in /tmp/phpgSlWos#Ss/admin.php on line 98

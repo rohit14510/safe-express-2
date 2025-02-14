@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anytimerelocation.in/?sitemapindex.xml
+Sitemap: https://anytimerelocation.in/?sitemap668.xml
+Sitemap: https://anytimerelocation.in/?sitemap507.xml
+Sitemap: https://anytimerelocation.in/?sitemap685.xml
+Sitemap: https://anytimerelocation.in/?sitemap875.xml
+Sitemap: https://anytimerelocation.in/?sitemap842.xml
+Sitemap: https://anytimerelocation.in/search.php?sitemap308.xml
+Sitemap: https://anytimerelocation.in/Anytime Relocation/pages.php?sitemap646.xml

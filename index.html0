@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Anytime Relocation</title>
+</head>
+<body>
+     <!-- ===header-section-start=== -->
+
+    <header>
+        <div class="top-menu">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-3"></div>
+                    <div class="col-xl-10 col-lg-9">
+                        <div class="top-bar">
+                            <div class="top-box">
+                                <ul>
+                                    <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:+91 9024272714">+91 9024272714</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:Anytimerelocationspot@gmail.com">Anytimerelocationspot@gmail.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a href="index.html" class="logo-img"><picture><img src="assets/images/logo.png" alt="logo"></picture></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="gallery.html" class="nav-link ">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="service.html" class="nav-link ">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="index.html"><picture><img src="assets/images/logo.png" alt="logo"></picture></a>
+        </div>
+    </header>
+
+    <!-- ===header-section-end=== -->
+
+    <!-- ===Hero-Section-Start=== -->
+
+    <section class="hero-section">
+        <div class="form-box">
+            <h2>Get A Free Quote</h2>
+            <form action="send.php" method="post" name="form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="f-group">
+                            <input type="text" placeholder="Enter Your Name" name="name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="f-group">
+                            <input type="number" placeholder="Enter Phone No." name="phone">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="f-group">
+                            <input type="text" placeholder="Enter Your Email" name="email">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="f-group">
+                            <input type="text" placeholder="Move From" name="movefrom">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="f-group">
+                            <input type="text" placeholder="Move To" name="moveto">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="f-group">
+                            <select name="service">
+                                <option value="Select Service">Select Service</option>
+                                <option value="Household Shifting">Household Shifting</option>
+                                <option value="Corporate Relocation">Corporate Relocation</option>
+                                <option value="Domestic Relocation">Domestic Relocation</option>
+                                <option value="Warehousing Service">Warehousing Service</option>
+                                <option value="Loading And Unloading ">Loading And Unloading </option>
+                                <option value="Vehicle Transportation">Vehicle Transportation</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class=" col-md-6">
+                        <div class="f-group">
+                            <textarea name="msg" cols="30" rows="1" placeholder="Write Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="f-group" style="text-align: right;">
+                            <button class="sec-btn" type="submit" name="submit"><span>Book Now</span></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="hero-slider">
+            <div class="hero-slide">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-item">
+                                <span class="under">Welcome To Anytime Relocation</span>
+                                <h2>Safety and Sustainability: Our Commitment to Excellence</h2>
+                                <p>At Anytime Relocation, we prioritize safety and sustainability. We adhere to strict standards, ensuring the protection of our employees and the environment. Our commitment to excellence drives us to minimize waste and reduce our carbon footprint.</p>
+                                <a href="contact.html" class="sec-btn"><span>Book Now</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide hero-slide2">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-item">
+                                <span class="under">Welcome To Anytime Relocation</span>
+                                <h2>Customer-Centric Approach for a Hassle-Free Move</h2>
+                                <p>At Anytime Relocation, we take a customer-centric approach to make your move hassle-free. Our dedicated team provides personalized attention, open communication, and regular updates, ensuring your satisfaction and a smooth relocation experience.</p>
+                                <a href="contact.html" class="sec-btn"><span>Book Now</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===Hero-Section-End=== -->
+
+    <!-- ====feature-section-start==== -->
+
+    <section class="feature-section p-100">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="fea-box">
+                        <div class="icon">
+                            <img src="assets/images/fea1.png" alt="">
+                        </div>
+                        <h4>Professional Team</h4>
+                        <p>Our highly trained professionals are dedicated to providing exceptional service, ensuring proper packing, and timely delivery, guaranteeing a smooth and stress-free moving experience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="fea-box">
+                        <div class="icon">
+                            <img src="assets/images/fea2.png" alt="">
+                        </div>
+                        <h4>Comprehensive Services</h4>
+                        <p>From packing to transportation, Anytime Relocation provide a wide range of services to cater to all your relocation needs, thereby ensuring a seamless and hassle-free relocation process.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="fea-box">
+                        <div class="icon">
+                            <img src="assets/images/fea3.png" alt="">
+                        </div>
+                        <h4>Customer Satisfaction:</h4>
+                        <p>Our customer-centric approach focuses on understanding your requirements, delivering personalized attention, and exceeding your expectations to ensure your utmost satisfaction.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="fea-box">
+                        <div class="icon">
+                            <img src="assets/images/fea4.png" alt="">
+                        </div>
+                        <h4>Safety and Reliability:</h4>
+                        <p>We prioritize the safety of your belongings throughout the entire relocation journey, utilizing secure packing materials, careful handling, and reliable transportation methods.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====feature-section-end==== -->
+
+    <!-- ===About-Section-Start=== -->
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="as-img">
+                        <img src="assets/images/about.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="as-content">
+                        <span class="under">About Us</span>
+                        <h2>Anytime Relocation is a leading relocation company</h2>
+                        <p>
+                            Anytime Relocation is a leading relocation company dedicated to providing high-quality packing and moving services. With years of experience in the industry, we have established ourselves as a trusted and reliable partner for individuals and businesses looking to relocate their belongings safely and efficiently.</p>
+                            <p>At Anytime Relocation, we understand that the process of moving can be stressful and time-consuming. Our mission is to simplify this process for our customers by offering a comprehensive range of relocation services tailored to their specific needs. Whether you are moving locally or internationally, we have the expertise and resources to handle every aspect of your move.</p>
+                            <p>Our team of highly trained professionals is committed to delivering exceptional service from start to finish. We employ a meticulous approach to packing and handling your belongings, ensuring that they are well-protected throughout the entire relocation process. We use high-quality packing materials and techniques to safeguard your items from damage during transportation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===About-Section-End=== -->
+
+    <!-- -------counter-section-start-------- -->
+
+<section class="counter-section">
+    <div class="container">
+        <div class="row" id="counter">
+            <div class="col-lg-3 col-6 ">
+                <div class="cont-box">
+                    <div class="icon">
+                        <img src="assets/images/count3.png" alt="">
+                    </div>
+                    <h2 class="counter-value" data-count="1122">0</h2>
+                    <p>Complete Project</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="cont-box">
+                    <div class="icon">
+                        <img src="assets/images/count2.png" alt="">
+                    </div>
+                    <h2 class="counter-value" data-count="924">0</h2>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="cont-box">
+                    <div class="icon">
+                        <img src="assets/images/count1.png" alt="">
+                    </div>
+                    <h2 class="counter-value" data-count="36">0</h2>
+                    <p>Experts Workers</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="cont-box count-box2">
+                    <div class="icon">
+                        <img src="assets/images/count4.png" alt="">
+                    </div>
+                    <h2 class="counter-value" data-count="9">0</h2>
+                    <p>Experience</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- -------counter-section-end---------- -->
+
+     <!-- ====Service-Section-Start==== -->
+
+     <section class="service-section m-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="ser-head">
+                        <span class="under">Our Service</span>
+                        <h2>Anytime Relocation  Popular <br> Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <div class="ser-box1">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="ser-item">
+                                    <h4>Household Shifting</h4>
+                                    <p>Our household shifting service is designed to make your residential move a breeze. We understand that moving to a new home can be a daunting task, but with our expertise and dedicated team, we ensure a smooth and hassle-free transition for you and your family.</p>
+                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="ser-box2">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="ser-item">
+                                    <h4>Office Shifting</h4>
+                                    <p>Our office shifting service is tailored to meet the unique requirements of businesses looking to relocate. We understand the importance of a smooth transition and minimal downtime during the move, and our team is dedicated to ensuring a seamless office ....</p>
+                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="ser-box3">
+                        <div class="row">
+                            <div class="col-lg-6"></div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="ser-item">
+                                    <h4>Domestic relocation</h4>
+                                    <p>Our domestic relocation service is designed to simplify the process of moving within the country. Whether you're moving to a new city or a different state, we provide comprehensive and reliable relocation ....</p>
+                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="ser-box4">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-5"></div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="ser-item">
+                                    <h4>Loading and Unloading</h4>
+                                    <p>Anytime Relocation loading and unloading service is designed to make your moving process easier and more efficient. Whether you are relocating your home or office, our skilled team will handle the heavy lifting for you.</p>
+                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="ser-box5">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="ser-item">
+                                    <h4>Warehousing Service</h4>
+                                    <p>Our warehouse service is designed to provide you with a secure and convenient storage solution for your goods. We offer state-of-the-art warehouses equipped with modern security systems to ensure the safety and protection of your items.</p>
+                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="ser-box6">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="ser-item">
+                                    <h4>Vehicle Transportation</h4>
+                                    <p>Our vehicle transportation service is designed to safely and efficiently transport your vehicles to your desired destination. Whether you need to move a car, motorcycle, or any other type of vehicle, we have the expertise and resources to handle it.</p>
+                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====Service-Section-End==== -->
+
+    <!-- ===Brand-Section-Start=== -->
+
+<section class="brand-section m-100">
+    <div class="container">
+        <h3>Our Partner</h3>
+        <div class="brand-slider">
+            <div class="brand-box">
+                <img src="assets/images/clients1.gif" alt="">
+            </div>
+            <div class="brand-box">
+                <img src="assets/images/clients4.gif" alt="">
+            </div>
+            <div class="brand-box">
+                <img src="assets/images/clients6.gif" alt="">
+              </div>
+             <div class="brand-box">
+                  <img src="assets/images/clients9.gif" alt="">
+             </div>
+            <div class="brand-box">
+                <img src="assets/images/clients10.gif" alt="">
+            </div>
+            <div class="brand-box">
+                <img src="assets/images/clients11.gif" alt="">
+            </div>
+            <div class="brand-box">
+                <img src="assets/images/clients14.gif" alt="">
+            </div>
+            <div class="brand-box">
+                <img src="assets/images/clients18.gif" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <!-- ===Brand-Section-End=== -->
+
+ <div class="what">
+  <a href=" https://wa.me/919024272714" target="_blank">
+     <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  <a href="tel:+91 9024272714" style="background-color:#ff6b3b;">
+     <i class="fa-solid fa-phone"></i>
+  </a>
+ </div>
+
+  <!-- ===testimonial-section-start=== -->
+
+<section class="testimonial-section p-100">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-6">
+                <div class="ch-title">
+                    <span class="under">Our Testimonial</span>
+                    <h2>Whats Our Clients Saying <br> About Us </h2>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="ch-text">
+                    <p>
+                        Anytime Relocation take pride in the positive feedback we receive from our valued clients. Here are some testimonials highlighting their experience with us:</p>
+                </div>
+            </div>
+        </div>
+        <div class="tes-slider">
+            <div class="tes-box">
+                <div class="tes-quote">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i>
+                </div>
+                <p>Anytime Relocation provided an exceptional moving experience for our family. From the initial consultation to the final delivery, their team displayed professionalism and efficiency. Our belongings arrived safely and on time. Highly recommended</p>
+                <div class="tes-info">
+                    <div class="tes-img">
+                        <img src="assets/images/tes.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6><b>Aarush Jain</b></h6>
+                        <span>Delhi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tes-box">
+                <div class="tes-quote">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-regular fa-star"></i>
+                </div>
+                <p>We recently relocated our office, and Anytime Relocation made the process seamless. Their team handled everything with care and precision. They ensured minimal disruption to our business operations, and we were up and running in no time. Thank you for your excellent service!</p>
+                <div class="tes-info">
+                    <div class="tes-img">
+                        <img src="assets/images/tes.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6><b>Dev Kumawat</b></h6>
+                        <span>Pune</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tes-box">
+                <div class="tes-quote">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>I had a great experience with Anytime Relocation. They provided excellent communication throughout the stay, making sure all my needs were met. I highly recommend Anytime Relocation services for smooth and hassle free relocation.</p>
+                <div class="tes-info">
+                    <div class="tes-img">
+                        <img src="assets/images/tes.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6><b>Dakshit Pareek</b></h6>
+                        <span>Punjab</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tes-box">
+                <div class="tes-quote">
+                    <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="ratting">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>I hired Anytime Relocation for my domestic relocation. The team was punctual, friendly and handled all my belongings with utmost care. They made the whole process stress-free, and I would definitely choose them again for my future moves.</p>
+                <div class="tes-info">
+                    <div class="tes-img">
+                        <img src="assets/images/tes.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6><b>Faraj Khan </b></h6>
+                        <span>Lucknow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===testimonial-section-end=== -->
+
+<!-- ===Footer-Section-Start=== -->
+
+<footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-7">
+                    <div class="f-box">
+                        <div class="f-logo">
+                            <img src="assets/images/logo.png" alt="">
+                        </div>
+                        <p>Contact Anytime Relocation today and let us take the burden off your shoulders. Trust us to handle your move with utmost care and professionalism, ensuring a smooth transition to your new destination.
+                        </p>
+                        <ul class="social-link">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5">
+                    <div class="f-box">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html"><span>Home</span></a></li>
+                            <li><a href="about.html"><span>About</span></a></li>
+                            <li><a href="gallery.html"><span>Gallery</span></a></li>
+                            <li><a href="service.html"><span>Service</span></a></li>
+                            <li><a href="pliocy.html"><span>Privacy Policy</span></a></li>
+                            <li><a href="terms.html"><span>Terms & Conditions</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="f-box">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i><span><b>Head Office : </b> Shop no 2 plot N. 5 Near Somesh vihar colony chhawla BSF Cump New Delhi 110071</span></li>
+                            
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+91 9024272714">+91 9024272714</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+91 8556840144">+91 8556840144</a></li>
+                            <li><i class="fa-solid fa-envelope"></i><a
+                                    href="mailto:Anytimerelocationspot@gmail.com">Anytimerelocationspot@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="copy-right">
+                    <p>© Copyright 2020 | Powered by Anytime Relocation. and Designed By <a
+                            href="https://standupstartups.com/">Standup Startups</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <!-- ===Footer-Section-End=== -->
+    
+    <!-- ===Script-Section=== -->
+
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- ===Script-Section=== -->
+
+</body>
+</html>
