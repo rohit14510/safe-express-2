@@ -46,7 +46,7 @@ body button {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 5px 10px 0px #00000052;
+  box-shadow: 0px 5px 10px 0px #00643152;
   background: #08e255;
 }
 
@@ -54,7 +54,7 @@ body button {
   font-size: 20px;
 }
 .under {
-  background-color: #000000;
+  background-color: #006431;
   padding: 7px 20px;
   color: #fff;
   border-left: 8px solid #006431;
@@ -65,7 +65,7 @@ body button {
 
 .sec-btn {
   padding: 10px 20px;
-  background-color: #000000;
+  background-color: #006431;
   color: #fff;
   display: inline-block;
   margin-top: 20px;
@@ -194,7 +194,7 @@ header {
   margin: 0px 5px;
 }
 .top-bar .social ul li a:hover{
-  background-color: #000000;
+  background-color: #006431;
   color: #fff;
 }
 .top-box ul li {
@@ -208,7 +208,7 @@ header {
 }
 
 .top-box ul li i {
-  color: #000000;
+  color: #006431;
   height: 40px;
   width: 40px;
   position: relative;
@@ -234,11 +234,11 @@ header {
   animation: zoom 3s infinite;
 }
 .top-box ul li:hover i {
-  color: #000000;
+  color: #006431;
 }
 
 .top-box ul li:hover a {
-  color: #000000;
+  color: #006431;
 }
 
 .top-menu .right-bar{
@@ -247,11 +247,11 @@ header {
   margin-left: 40px;
 }
 .top-menu .right-bar .sec-btn{
-  background-color: #000000;
+  background-color: #006431;
   font-weight: 600;
 }
 .top-menu .right-bar .sec-btn::after{
-  background-color: #000000;
+  background-color: #006431;
 }
 .menu .logo-img {
   display: none;
@@ -288,7 +288,7 @@ header {
 }
 
 .menu {
-  background-color: #000000;
+  background-color: #006431;
 }
 
 .menu .navbar-nav {
@@ -326,7 +326,7 @@ header {
 }
 
 .cart li::before {
-  background-color: #000000;
+  background-color: #006431;
   content: '0';
   position: absolute;
   top: 20px;
@@ -339,7 +339,7 @@ header {
 }
 
 .cart li::after {
-  background-color: #000000;
+  background-color: #006431;
   content: '0';
   position: absolute;
   top: 20px;
@@ -381,7 +381,7 @@ header {
 .logo::before {
   width: 20px;
   height: 100%;
-  background-color: #000000;
+  background-color: #006431;
   position: absolute;
   top: 0;
   right: -20px;
@@ -396,7 +396,7 @@ header {
   }
 
   50% {
-    box-shadow: 0px 0px 0px 0px #000000;
+    box-shadow: 0px 0px 0px 0px #006431;
   }
 
   100% {
@@ -411,13 +411,13 @@ header {
 }
 .hero-section .hero-slide{
   padding: 150px 0px;
-  background-image: linear-gradient(#0000008e,#0000008e),url(../images/hero1.jpeg);
+  background-image: linear-gradient(#0064318e,#0064318e),url(../images/hero1.jpeg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .hero-section .hero-slide2{
-  background-image: linear-gradient(#0000008e,#0000008e),url(../images/hero2.webp) !important;
+  background-image: linear-gradient(#0064318e,#0064318e),url(../images/hero2.webp) !important;
 }
 .hero-section .hero-slide h2{
   line-height: 60px;
@@ -434,7 +434,7 @@ header {
   height: 55px;
   width: 55px;
   background-color: #fff;
-  color: #000000;
+  color: #006431;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -450,7 +450,7 @@ header {
 .hero-slider .slick-arrow::after {
   content: "\f100";
   font-size: 24px;
-  color: #000000;
+  color: #006431;
   font-family: "FontAwesome";
 }
 
@@ -465,7 +465,7 @@ header {
   width: 37%;
   z-index: 999;
   padding:35px 20px;
-  background-color: #000000;
+  background-color: #006431;
   box-shadow: 0px 10px 20px 0px #0089ce2b;
 }
 .hero-section .form-box h2{
@@ -499,7 +499,7 @@ border: none;
   width: 100%;
   z-index: 999;
   padding:35px 20px;
-  background-color: #000000;
+  background-color: #006431;
   box-shadow: 0px 10px 20px 0px #0089ce2b;
 }
 .mobileform-section .form-box h2{
@@ -549,7 +549,7 @@ border: none;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #006431;
   background-size: cover;
   content: '';
   z-index: 0;
@@ -617,8 +617,8 @@ border: none;
   content: "";
   position: absolute;
   top: 0;
-  border-top: 15px solid #000000;
-  border-left: 15px solid #000000;
+  border-top: 15px solid #006431;
+  border-left: 15px solid #006431;
   left: 0;
 }
 .about-section .as-img::before{
@@ -639,7 +639,7 @@ border: none;
 .counter-section{
   position: relative;
   padding: 60px 0px;
-  background-image: linear-gradient(#000000b3,#000000b3),url(../images/counter.jpg);
+  background-image: linear-gradient(#006431b3,#006431b3),url(../images/counter.jpg);
   margin: 80px 0px;
 }
 
@@ -748,7 +748,7 @@ border: none;
 }
 
 .service-section .sec-btn {
-  background-color: #000000;
+  background-color: #006431;
   margin-top: 10px;
 }
 
@@ -784,7 +784,7 @@ border: none;
 
 /* ----testimonial-section-start---- */
 .testimonial-section{
-  background-image:linear-gradient(to left, #0064318e,#000000a1),url(../images/banner.webp);
+  background-image:linear-gradient(to left, #0064318e,#006431a1),url(../images/banner.webp);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -818,7 +818,7 @@ border: none;
   font-size: 55px;
 }
 .tes-box:hover .tes-quote{
-  color: #000000;
+  color: #006431;
 }
 .tes-box .tes-info{
   display: flex;
@@ -865,7 +865,7 @@ border: none;
 .tes-box .tes-info .text h6{
   font-size: 18px;
   margin-bottom: 0;
-  color: #000000;
+  color: #006431;
 }
 .tes-box .tes-info .tes-img img{
   width: 60px;
@@ -893,7 +893,7 @@ border: none;
 }
 .f-box h4{
   margin-bottom: 20px;
-  color: #000000;
+  color: #006431;
   position: relative;
   font-weight: 600;
 }
@@ -925,7 +925,7 @@ border: none;
   font-weight: 600;
 }
 .f-box ul li a:hover{
-  color: #000000;
+  color: #006431;
 }
 .f-box ul li span{
   flex: 1;
@@ -946,11 +946,11 @@ border: none;
   height: 40px;
   width: 40px;
   background-color: #fff;
-  color: #000000;
+  color: #006431;
   border-radius: 1px;
 }
 .f-box .social-link li a:hover, .f-box ul li> i:hover{
-  background-color: #000000;
+  background-color: #006431;
   color: #fff;
   border-radius: 5px;
 }
@@ -967,7 +967,7 @@ border: none;
   padding: 10px;
   z-index: 7;
   color: #fff;
-  background-color: #000000;
+  background-color: #006431;
   margin-top: 20px;
   position: relative;
 }
@@ -988,7 +988,7 @@ border: none;
   background-position: center;
   background-size: cover;
   color: #fff;
-  background-image: linear-gradient(#000000a3,#000000a3),url(../images/banner.webp);
+  background-image: linear-gradient(#006431a3,#006431a3),url(../images/banner.webp);
 }
 .banner-section .banner-title ul{
   display: flex;
@@ -1113,7 +1113,7 @@ border: none;
 }
 .contact-box::after{
   width: 100%;
-  background-color: #000000;
+  background-color: #006431;
   position: absolute;
   top: 0;
   left: 0;
@@ -1154,7 +1154,8 @@ border: none;
   height: 100%;
   padding:30px 20px;
   margin-right: -24px;
-  background-image: linear-gradient(#0089ce66,#0089ce66),url(../images/quote.jpeg);
+  background-image: linear-gradient(#00643166, #00643166), url(../images/quote.jpeg);
+
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -1166,7 +1167,7 @@ border: none;
 
  .quote-section .form-box{
     padding:35px 20px;
-    background-image: linear-gradient(#000000,#000000);
+    background-image: linear-gradient(#006431,#006431);
     box-shadow: 0px 10px 20px 0px #0089ce25;
   }
  .quote-section .form-box h2{
@@ -1212,7 +1213,7 @@ border: none;
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #000000;
+  background-color: #006431;
   transition: .4s;
   content: "";
 }
@@ -1258,7 +1259,7 @@ border: none;
 }
 
 .ser-slider .ser-list.slick-current {
-  background-color: #000000;
+  background-color: #006431;
   color: #fff;
   cursor: auto;
 }
@@ -1297,7 +1298,7 @@ border: none;
 }
 
 .branch-box {
-  border: 4px double #000000;
+  border: 4px double #006431;
   border-radius: 5px;
   padding: 20px;
   height: 100%;
@@ -1328,7 +1329,7 @@ border: none;
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: #000000;
+  background-color: #006431;
   background-image: url(../images/footer.png);
   width: 100%;
   height: 0px;
@@ -1492,7 +1493,7 @@ h2,.service-two .ser-box h2 {
   font-size: 28px;
 }
 .service-section .ser-item {
-  background-color: #0089ce73;
+  /* background-color: #0089ce73; */
 }
 .banner-section .banner-title h2 {
   font-size: 35px;
