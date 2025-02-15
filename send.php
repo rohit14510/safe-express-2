@@ -31,7 +31,7 @@ $mail->setFrom('Safexpresspackers01@gmail.com', 'Safe Xpress Packers And Movers'
 $mail->addReplyTo('Safexpresspackers01@gmail.com', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('Anytimerelocationspot@gmail.com'); 
+$mail->addAddress('Safexpresspackers01@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 

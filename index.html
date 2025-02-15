@@ -86,7 +86,8 @@
     <section class="hero-section">
         <div class="form-box d-none d-lg-block">
             <h2>Get A Price Now</h2>
-            <form action="send.php" method="post" name="form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="4fe01979-a083-4e74-bfc6-bbd7a0b2d82d">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="f-group">
@@ -130,12 +131,12 @@
                 <div class="row align-items-center">
                     <div class=" col-md-6">
                         <div class="f-group">
-                            <textarea name="msg" cols="30" rows="1" placeholder="Write Message"></textarea>
+                            <textarea name="message" cols="30" rows="1" placeholder="Write Message"></textarea>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="f-group" style="text-align: right;">
-                            <button class="sec-btn" type="submit" name="submit"><span>Check Price</span></button>
+                            <button class="sec-btn" type="submit"><span>Check Price</span></button>
                         </div>
                     </div>
                 </div>
