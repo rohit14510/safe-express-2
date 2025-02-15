@@ -27,8 +27,8 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@anytimerelocation.in', 'Anytime Relocation'); 
-$mail->addReplyTo('info@anytimerelocation.in', 'Test Email'); 
+$mail->setFrom('Safexpresspackers01@gmail.com', 'Safe Xpress Packers And Movers'); 
+$mail->addReplyTo('Safexpresspackers01@gmail.com', 'Test Email'); 
  
 // Add a recipient 
 $mail->addAddress('Anytimerelocationspot@gmail.com'); 

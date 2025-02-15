@@ -1005,7 +1005,7 @@ border: none;
   font-size: 45px;
 }
 .banner-title ul li:first-child a{
-  color: #006431;
+  color: #000;
 }
  .banner-title ul li a{
   color: #fff;
@@ -1510,8 +1510,8 @@ h2,.service-two .ser-box h2 {
 .top-box ul li i{
   height: auto;
   width: auto;
-  background-color: transparent;
-  color: #fff;
+  /* background-color: transparent;
+  color: #fff; */
 }
 .top-box {
   margin-left: 0px;
