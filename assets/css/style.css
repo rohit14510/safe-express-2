@@ -421,16 +421,16 @@ header {
 }
 .hero-section .hero-slide{
   padding: 10px 0px;
-  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider-1.jpg);
+  background-image:url(../images/slider-1.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .hero-section .hero-slide2{
-  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider-2.jpg) !important;
+  background-image:url(../images/slider-2.jpg) !important;
 }
 .hero-section .hero-slide3{
-  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider-3.jpg) !important;
+  background-image:url(../images/slider-3.jpg) !important;
 }
 .hero-section .hero-slide h2{
   line-height: 60px;
@@ -1570,18 +1570,19 @@ h2,.service-two .ser-box h2 {
 /* -------Now More Cities------ */
 .Service-area-list{
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+
  
 }
 .Service-area-list li{
   padding-right: 10px;
 }
 .Service-area-list li p{
-  background-color: #000;
-  font-size: 13px;
-  color: white;
+  font-size: 18px;
+  color: #00bf63;
   padding: 5px;
+}
+.Service-area-list li p i{
+  margin-right: 10px;
 }
 .Service-area-list li::marker {
   color: #00bf63; /* Disc color */

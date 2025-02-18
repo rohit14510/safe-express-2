@@ -159,3 +159,23 @@ document.getElementById("mobile-input").addEventListener("input", function() {
   document.getElementById("error-msg").style.display = "none";
   document.getElementById("call-btn").style.display = "none";
 });
+
+//88888888
+document.getElementById("track-btn-track").addEventListener("click", function() {
+  let inputField = document.getElementById("mobile-input-track");
+  let errorMsg = document.getElementById("error-msg-track");
+  let callBtn = document.getElementById("call-btn-track");
+
+  if (inputField.value.trim() === "") {
+    alert("Fill the Field...");  // ऑर्डर ट्रैक करने का मैसेज
+  } else {
+    errorMsg.style.display = "block";  // Server error दिखाओ
+    callBtn.style.display = "block";   // Call बटन दिखाओ
+  }
+});
+
+// जब यूजर इनपुट टाइप करे तो एरर हटा दो
+document.getElementById("mobile-input-track").addEventListener("input", function() {
+  document.getElementById("error-msg-track").style.display = "none";
+  document.getElementById("call-btn-track").style.display = "none";
+});

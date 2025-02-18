@@ -1,133 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Safe Xpress Packers And Movers </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Safe Xpress Packers And Movers</title>
+  </head>
+  <body>
     <!-- --------------Start Modal------------ -->
-    <div class="modal fade" id="offerModal" tabindex="-1" aria-hidden="true" style="z-index: 110000;">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h4>Get 20% Off on All Services for New Customers!</h4>
-                    <a href="tel:+91 9812661365">Book Now</a>
-                </div>
-            </div>
+    <div
+      class="modal fade"
+      id="offerModal"
+      tabindex="-1"
+      aria-hidden="true"
+      style="z-index: 110000"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Get 20% Off on All Services for New Customers!</h4>
+            <a href="tel:+91 9812661365">Book Now</a>
+          </div>
         </div>
+      </div>
     </div>
-<!-- --------------End Modal------------ -->
- <!-- ---------------Track Your Order--------------- -->
-<button id="complaintBtn">Track Your Order</button>
-<div id="enquiryForm">
-    <div class="track-container">
-        <h4 class="text-center fw-bold">Track <span class="fw-normal">your</span> order</h4>
-        
+    <!-- --------------End Modal------------ -->
+    <!-- ---------------Track Your Order--------------- -->
+    <button id="complaintBtn">Track Your Order</button>
+    <div id="enquiryForm">
+      <div class="track-container">
+        <h4 class="text-center fw-bold">
+          Track <span class="fw-normal">your</span> order
+        </h4>
+
         <!-- Nav Tabs -->
-        <ul class="nav nav-tabs track-tabs border-0 d-flex justify-content-between" id="trackTab" role="tablist">
-            <li class="nav-item w-25" role="presentation">
-                <button class="nav-link active text-center" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button" role="tab">Mobile</button>
-            </li>
-            <li class="nav-item w-25" role="presentation">
-                <button class="nav-link text-center" id="awb-tab" data-bs-toggle="tab" data-bs-target="#awb" type="button" role="tab">AWB</button>
-            </li>
-            <li class="nav-item w-25" role="presentation">
-                <button class="nav-link text-center" id="order-tab" data-bs-toggle="tab" data-bs-target="#order" type="button" role="tab">Order Id</button>
-            </li>
-            <li class="nav-item w-25" role="presentation">
-                <button class="nav-link text-center" id="lrn-tab" data-bs-toggle="tab" data-bs-target="#lrn" type="button" role="tab">LRN</button>
-            </li>
+        <ul
+          class="nav nav-tabs track-tabs border-0 d-flex justify-content-between"
+          id="trackTab"
+          role="tablist"
+        >
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link active text-center"
+              id="mobile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#mobile"
+              type="button"
+              role="tab"
+            >
+              Mobile
+            </button>
+          </li>
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link text-center"
+              id="awb-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#awb"
+              type="button"
+              role="tab"
+            >
+              AWB
+            </button>
+          </li>
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link text-center"
+              id="order-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#order"
+              type="button"
+              role="tab"
+            >
+              Order Id
+            </button>
+          </li>
+          <li class="nav-item w-25" role="presentation">
+            <button
+              class="nav-link text-center"
+              id="lrn-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#lrn"
+              type="button"
+              role="tab"
+            >
+              LRN
+            </button>
+          </li>
         </ul>
-    
+
         <!-- Tab Content -->
         <div class="tab-content mt-3 p-lg-0 p-3" id="trackTabContent">
-            <div class="tab-pane fade show active" id="mobile" role="tabpanel">
-                <input type="text" class="form-control track-input" id="mobile-input" placeholder="Enter Here" required>
-                <p class="error-msg" id="error-msg">⚠ Server Error. Please call support.</p>
-                <button class="btn track-btn w-100 mt-3" id="track-btn">Get Track</button>
-                <a href="tel:+91 9812661365"  class="btn call-btn w-100" id="call-btn">📞 Call Support</a>
-            </div>
+          <div class="tab-pane fade show active" id="mobile" role="tabpanel">
+            <input
+              type="text"
+              class="form-control track-input"
+              id="mobile-input"
+              placeholder="Enter Here"
+              required
+            />
+            <p class="error-msg" id="error-msg">
+              ⚠ Server Error. Please call support.
+            </p>
+            <button class="btn track-btn w-100 mt-3" id="track-btn">
+              Get Track
+            </button>
+            <a
+              href="tel:+91 9812661365"
+              class="btn call-btn w-100"
+              id="call-btn"
+              >📞 Call Support</a
+            >
+          </div>
         </div>
-    
+      </div>
     </div>
-    
-    
-</div>
-     <!-- ===header-section-start=== -->
+    <!-- ===header-section-start=== -->
 
     <header>
-        <div class="top-menu">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-2 col-lg-3"></div>
-                    <div class="col-xl-10 col-lg-9">
-                        <div class="top-bar">
-                            <div class="top-box">
-                                <ul>
-                                    <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:+91 9024272714">+91 9024272714</a></li>
-                                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:Safexpresspackers01@gmail.com">Safexpresspackers01@gmail.com</a></li>
-                                </ul>
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+      <div class="top-menu">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-lg-3"></div>
+            <div class="col-xl-10 col-lg-9">
+              <div class="top-bar">
+                <div class="top-box">
+                  <ul>
+                    <li class="phone">
+                      <i class="fa-solid fa-phone"></i
+                      ><a href="tel:+91 9024272714">+91 9024272714</a>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-envelope"></i
+                      ><a href="mailto:Safexpresspackers01@gmail.com"
+                        >Safexpresspackers01@gmail.com</a
+                      >
+                    </li>
+                  </ul>
                 </div>
+                <div class="social">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="menu">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <a href="index.html" class="logo-img"><picture><img src="assets/images/logo.png" alt="logo"></picture></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarScroll">
-                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="about.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="gallery.html" class="nav-link ">Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="service.html" class="nav-link ">Service</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+      </div>
+      <div class="menu">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a href="index.html" class="logo-img"
+                ><picture
+                  ><img src="assets/images/logo.png" alt="logo" /></picture
+              ></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="service.html" class="nav-link">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </nav>
         </div>
-        <div class="logo">
-            <a href="index.html"><picture><img src="assets/images/logo.png" alt="logo"></picture></a>
-        </div>
+      </div>
+      <div class="logo">
+        <a href="index.html"
+          ><picture><img src="assets/images/logo.png" alt="logo" /></picture
+        ></a>
+      </div>
     </header>
 
     <!-- ===header-section-end=== -->
@@ -135,222 +235,331 @@
     <!-- ===Hero-Section-Start=== -->
 
     <section class="hero-section">
-        <div class="form-box d-none d-lg-block">
-            <h2>Get A Price Now</h2>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="4fe01979-a083-4e74-bfc6-bbd7a0b2d82d">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Enter Your Name" name="name" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="number" placeholder="Enter Phone No." name="phone" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Enter Your Email" name="email" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Move From" name="movefrom" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Move To" name="moveto" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <select name="service" required>
-                                <option value="Select Service">Select Service</option>
-                                <option value="Household Shifting">Household Shifting</option>
-                                <option value="Corporate Relocation">Corporate Relocation</option>
-                                <option value="Domestic Relocation">Domestic Relocation</option>
-                                <option value="Warehousing Service">Warehousing Service</option>
-                                <option value="Loading And Unloading ">Loading And Unloading </option>
-                                <option value="Vehicle Transportation">Vehicle Transportation</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class=" col-md-6">
-                        <div class="f-group">
-                            <textarea name="message" cols="30" rows="1" placeholder="Write Message" required></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group" style="text-align: right;">
-                            <button class="sec-btn" type="submit"><span>Check Price</span></button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="hero-slider">
-            <div class="hero-slide">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="hero-item">
-                                <!-- <span class="under">Welcome To Safe Xpress Packers And Movers </span> -->
+      <div class="form-box d-none d-lg-block">
+        <h2>Get A Price Now</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="4fe01979-a083-4e74-bfc6-bbd7a0b2d82d"
+          />
+          <div class="row">
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Enter Your Name"
+                  name="name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="number"
+                  placeholder="Enter Phone No."
+                  name="phone"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Enter Your Email"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Move From"
+                  name="movefrom"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Move To"
+                  name="moveto"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <select name="service" required>
+                  <option value="Select Service">Select Service</option>
+                  <option value="Household Shifting">Household Shifting</option>
+                  <option value="Corporate Relocation">
+                    Corporate Relocation
+                  </option>
+                  <option value="Domestic Relocation">
+                    Domestic Relocation
+                  </option>
+                  <option value="Warehousing Service">
+                    Warehousing Service
+                  </option>
+                  <option value="Loading And Unloading ">
+                    Loading And Unloading
+                  </option>
+                  <option value="Vehicle Transportation">
+                    Vehicle Transportation
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="f-group">
+                <textarea
+                  name="message"
+                  cols="30"
+                  rows="1"
+                  placeholder="Write Message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group" style="text-align: right">
+                <button class="sec-btn" type="submit">
+                  <span>Check Price</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="hero-slider">
+        <div class="hero-slide">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <!-- <div class="hero-item">
+                                <span class="under">Welcome To Safe Xpress Packers And Movers </span> 
                                 <h2>Safety and Sustainability: Our Commitment to Excellence</h2>
                                 <p>At Safe Xpress Packers And Movers , we prioritize safety and sustainability. We adhere to strict standards, ensuring the protection of our employees and the environment. Our commitment to excellence drives us to minimize waste and reduce our carbon footprint.</p>
                                 <a href="contact.html" class="sec-btn"><span>Book Now</span></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            
-                        </div>
-                    </div>
-                </div>
+                            </div> -->
+              </div>
+              <div class="col-lg-6"></div>
             </div>
-            <div class="hero-slide hero-slide2">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="hero-item">
-                                <!-- <span class="under">Welcome To Safe Xpress Packers And Movers </span> -->
+          </div>
+        </div>
+        <div class="hero-slide hero-slide2">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <!-- <div class="hero-item">
+                                <span class="under">Welcome To Safe Xpress Packers And Movers </span>
                                 <h2>Customer-Centric Approach for a Hassle-Free Move</h2>
                                 <p>At Safe Xpress Packers And Movers , we take a customer-centric approach to make your move hassle-free. Our dedicated team provides personalized attention, open communication, and regular updates, ensuring your satisfaction and a smooth relocation experience.</p>
                                 <a href="contact.html" class="sec-btn"><span>Book Now</span></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6"></div>
-                    </div>
-                </div>
+                            </div> -->
+              </div>
+              <div class="col-lg-6"></div>
             </div>
-            <div class="hero-slide hero-slide3">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="hero-item">
-                                <!-- <span class="under">Welcome To Safe Xpress Packers And Movers </span> -->
+          </div>
+        </div>
+        <div class="hero-slide hero-slide3">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <!-- <div class="hero-item">
+                                <span class="under">Welcome To Safe Xpress Packers And Movers </span>
                                 <h2>Seamless Relocation with Expert Handling</h2>
                                 <p>At Safe Xpress Packers And Movers, we prioritize efficiency and care in every move. Our experienced professionals handle your belongings with precision, using the best packing techniques and transportation methods to ensure a secure and seamless relocation.</p>
                                 <a href="contact.html" class="sec-btn"><span>Book Now</span></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6"></div>
-                    </div>
-                </div>
+                            </div> -->
+              </div>
+              <div class="col-lg-6"></div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===Hero-Section-End=== -->
-      <!-- ===Mobile Form-Section-Start=== -->
-      <section class="mobileform-section d-lg-none d-block">
-        <div class="form-box">
-            <h2>Get A Price Now</h2>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="4fe01979-a083-4e74-bfc6-bbd7a0b2d82d">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Enter Your Name" name="name" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="number" placeholder="Enter Phone No." name="phone" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Enter Your Email" name="email" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Move From" name="movefrom" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <input type="text" placeholder="Move To" name="moveto" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group">
-                            <select name="service" required>
-                                <option value="Select Service">Select Service</option>
-                                <option value="Household Shifting">Household Shifting</option>
-                                <option value="Corporate Relocation">Corporate Relocation</option>
-                                <option value="Domestic Relocation">Domestic Relocation</option>
-                                <option value="Warehousing Service">Warehousing Service</option>
-                                <option value="Loading And Unloading ">Loading And Unloading </option>
-                                <option value="Vehicle Transportation">Vehicle Transportation</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class=" col-md-6">
-                        <div class="f-group">
-                            <textarea name="message" cols="30" rows="1" placeholder="Write Message" required></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="f-group" style="text-align: right;">
-                            <button class="sec-btn" type="submit"><span>Check Price</span></button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-     
+    <!-- ===Mobile Form-Section-Start=== -->
+    <section class="mobileform-section d-lg-none d-block">
+      <div class="form-box">
+        <h2>Get A Price Now</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="4fe01979-a083-4e74-bfc6-bbd7a0b2d82d"
+          />
+          <div class="row">
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Enter Your Name"
+                  name="name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="number"
+                  placeholder="Enter Phone No."
+                  name="phone"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Enter Your Email"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Move From"
+                  name="movefrom"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <input
+                  type="text"
+                  placeholder="Move To"
+                  name="moveto"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group">
+                <select name="service" required>
+                  <option value="Select Service">Select Service</option>
+                  <option value="Household Shifting">Household Shifting</option>
+                  <option value="Corporate Relocation">
+                    Corporate Relocation
+                  </option>
+                  <option value="Domestic Relocation">
+                    Domestic Relocation
+                  </option>
+                  <option value="Warehousing Service">
+                    Warehousing Service
+                  </option>
+                  <option value="Loading And Unloading ">
+                    Loading And Unloading
+                  </option>
+                  <option value="Vehicle Transportation">
+                    Vehicle Transportation
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="f-group">
+                <textarea
+                  name="message"
+                  cols="30"
+                  rows="1"
+                  placeholder="Write Message"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="f-group" style="text-align: right">
+                <button class="sec-btn" type="submit">
+                  <span>Check Price</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
     </section>
-      <!-- ===Mobile Form-Section-End=== -->
+    <!-- ===Mobile Form-Section-End=== -->
     <!-- ====feature-section-start==== -->
 
     <section class="feature-section p-100">
-        <div class="container">
-            <div class="row ">
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="fea-box">
-                        <div class="icon">
-                            <img src="assets/images/fea1.png" alt="">
-                        </div>
-                        <h4>Professional Team</h4>
-                        <p>Our highly trained professionals are dedicated to providing exceptional service, ensuring proper packing, and timely delivery, guaranteeing a smooth and stress-free moving experience.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="fea-box">
-                        <div class="icon">
-                            <img src="assets/images/fea2.png" alt="">
-                        </div>
-                        <h4>Comprehensive Services</h4>
-                        <p>From packing to transportation, Safe Xpress Packers And Movers  provide a wide range of services to cater to all your relocation needs, thereby ensuring a seamless and hassle-free relocation process.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="fea-box">
-                        <div class="icon">
-                            <img src="assets/images/fea3.png" alt="">
-                        </div>
-                        <h4>Customer Satisfaction:</h4>
-                        <p>Our customer-centric approach focuses on understanding your requirements, delivering personalized attention, and exceeding your expectations to ensure your utmost satisfaction.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4">
-                    <div class="fea-box">
-                        <div class="icon">
-                            <img src="assets/images/fea4.png" alt="">
-                        </div>
-                        <h4>Safety and Reliability:</h4>
-                        <p>We prioritize the safety of your belongings throughout the entire relocation journey, utilizing secure packing materials, careful handling, and reliable transportation methods.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="fea-box">
+              <div class="icon">
+                <img src="assets/images/fea1.png" alt="" />
+              </div>
+              <h4>Professional Team</h4>
+              <p>
+                Our highly trained professionals are dedicated to providing
+                exceptional service, ensuring proper packing, and timely
+                delivery, guaranteeing a smooth and stress-free moving
+                experience.
+              </p>
             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="fea-box">
+              <div class="icon">
+                <img src="assets/images/fea2.png" alt="" />
+              </div>
+              <h4>Comprehensive Services</h4>
+              <p>
+                From packing to transportation, Safe Xpress Packers And Movers
+                provide a wide range of services to cater to all your relocation
+                needs, thereby ensuring a seamless and hassle-free relocation
+                process.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="fea-box">
+              <div class="icon">
+                <img src="assets/images/fea3.png" alt="" />
+              </div>
+              <h4>Customer Satisfaction:</h4>
+              <p>
+                Our customer-centric approach focuses on understanding your
+                requirements, delivering personalized attention, and exceeding
+                your expectations to ensure your utmost satisfaction.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="fea-box">
+              <div class="icon">
+                <img src="assets/images/fea4.png" alt="" />
+              </div>
+              <h4>Safety and Reliability:</h4>
+              <p>
+                We prioritize the safety of your belongings throughout the
+                entire relocation journey, utilizing secure packing materials,
+                careful handling, and reliable transportation methods.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ====feature-section-end==== -->
@@ -358,526 +567,800 @@
     <!-- ===About-Section-Start=== -->
 
     <section class="about-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="as-img">
-                        <img src="assets/images/about.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="as-content">
-                        <span class="under">About Us</span>
-                        <h2>Safe Xpress Packers And Movers  is a leading relocation company</h2>
-                        <p>
-                            Safe Xpress Packers And Movers  is a leading relocation company dedicated to providing high-quality packing and moving services. With years of experience in the industry, we have established ourselves as a trusted and reliable partner for individuals and businesses looking to relocate their belongings safely and efficiently.</p>
-                            <p>At Safe Xpress Packers And Movers , we understand that the process of moving can be stressful and time-consuming. Our mission is to simplify this process for our customers by offering a comprehensive range of relocation services tailored to their specific needs. Whether you are moving locally or internationally, we have the expertise and resources to handle every aspect of your move.</p>
-                            <p>Our team of highly trained professionals is committed to delivering exceptional service from start to finish. We employ a meticulous approach to packing and handling your belongings, ensuring that they are well-protected throughout the entire relocation process. We use high-quality packing materials and techniques to safeguard your items from damage during transportation.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="as-img">
+              <img src="assets/images/about.jpg" alt="" />
             </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="as-content">
+              <span class="under">About Us</span>
+              <h2>
+                Safe Xpress Packers And Movers is a leading relocation company
+              </h2>
+              <p>
+                Safe Xpress Packers And Movers is a leading relocation company
+                dedicated to providing high-quality packing and moving services.
+                With years of experience in the industry, we have established
+                ourselves as a trusted and reliable partner for individuals and
+                businesses looking to relocate their belongings safely and
+                efficiently.
+              </p>
+              <p>
+                At Safe Xpress Packers And Movers , we understand that the
+                process of moving can be stressful and time-consuming. Our
+                mission is to simplify this process for our customers by
+                offering a comprehensive range of relocation services tailored
+                to their specific needs. Whether you are moving locally or
+                internationally, we have the expertise and resources to handle
+                every aspect of your move.
+              </p>
+              <p>
+                Our team of highly trained professionals is committed to
+                delivering exceptional service from start to finish. We employ a
+                meticulous approach to packing and handling your belongings,
+                ensuring that they are well-protected throughout the entire
+                relocation process. We use high-quality packing materials and
+                techniques to safeguard your items from damage during
+                transportation.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===About-Section-End=== -->
+    <!-- ===Track-Section-Start=== -->
+    <div class="container-fluid p-2">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6">
+          <div class="as-content">
+            <h2>
+              Safe Xpress Packers And Movers Track Your Order
+            </h2>
+            <p>
+                Stay updated on your shipment with our real-time tracking system. Enter your tracking details to monitor the status of your move with Safe Xpress Packers and Movers. We ensure a hassle-free relocation experience with complete transparency and reliability.
+            </p>
+    
+          </div>
+        </div>
+        <div class="col-lg-5 mt-lg-0 mt-4">
+            <div class="track-container">
+                <h4 class="text-center fw-bold">
+                  Track <span class="fw-normal">your</span> order
+                </h4>
+              
+                <!-- Nav Tabs -->
+                <ul
+                  class="nav nav-tabs track-tabs border-0 d-flex justify-content-between"
+                  id="trackTabMain"
+                  role="tablist"
+                >
+                  <li class="nav-item w-25" role="presentation">
+                    <button
+                      class="nav-link active text-center"
+                      id="mobile-tab-track"
+                      data-bs-toggle="tab"
+                      data-bs-target="#mobile-track"
+                      type="button"
+                      role="tab"
+                    >
+                      Mobile
+                    </button>
+                  </li>
+                  <li class="nav-item w-25" role="presentation">
+                    <button
+                      class="nav-link text-center"
+                      id="awb-tab-track"
+                      data-bs-toggle="tab"
+                      data-bs-target="#awb-track"
+                      type="button"
+                      role="tab"
+                    >
+                      AWB
+                    </button>
+                  </li>
+                  <li class="nav-item w-25" role="presentation">
+                    <button
+                      class="nav-link text-center"
+                      id="order-tab-track"
+                      data-bs-toggle="tab"
+                      data-bs-target="#order-track"
+                      type="button"
+                      role="tab"
+                    >
+                      Order Id
+                    </button>
+                  </li>
+                  <li class="nav-item w-25" role="presentation">
+                    <button
+                      class="nav-link text-center"
+                      id="lrn-tab-track"
+                      data-bs-toggle="tab"
+                      data-bs-target="#lrn-track"
+                      type="button"
+                      role="tab"
+                    >
+                      LRN
+                    </button>
+                  </li>
+                </ul>
+              
+                <!-- Tab Content -->
+                <div class="tab-content mt-3 p-lg-0 p-3" id="trackTabContentMain">
+                  <div
+                    class="tab-pane fade show active"
+                    id="mobile-track"
+                    role="tabpanel"
+                  >
+                    <input
+                      type="text"
+                      class="form-control track-input"
+                      id="mobile-input-track"
+                      placeholder="Enter Here"
+                      required
+                    />
+                    <p class="error-msg" id="error-msg-track">
+                      ⚠ Server Error. Please call support.
+                    </p>
+                    <button class="btn track-btn w-100 mt-3" id="track-btn-track">
+                      Get Track
+                    </button>
+                    <a
+                      href="tel:+91 9812661365"
+                      class="btn call-btn w-100"
+                      id="call-btn-track"
+                      >📞 Call Support</a
+                    >
+                  </div>
+                </div>
+              </div>
+              
+        </div>
+      </div>
+    </div>
+    <!-- ===Track-Section-End=== -->
 
     <!-- -------counter-section-start-------- -->
 
-<section class="counter-section">
-    <div class="container">
+    <section class="counter-section">
+      <div class="container">
         <div class="row" id="counter">
-            <div class="col-lg-3 col-6 ">
-                <div class="cont-box">
-                    <div class="icon">
-                        <img src="assets/images/count3.png" alt="">
-                    </div>
-                    <h2 class="counter-value" data-count="1122">0</h2>
-                    <p>Complete Project</p>
-                </div>
+          <div class="col-lg-3 col-6">
+            <div class="cont-box">
+              <div class="icon">
+                <img src="assets/images/count3.png" alt="" />
+              </div>
+              <h2 class="counter-value" data-count="1122">0</h2>
+              <p>Complete Project</p>
             </div>
-            <div class="col-lg-3 col-6">
-                <div class="cont-box">
-                    <div class="icon">
-                        <img src="assets/images/count2.png" alt="">
-                    </div>
-                    <h2 class="counter-value" data-count="924">0</h2>
-                    <p>Happy Clients</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="cont-box">
+              <div class="icon">
+                <img src="assets/images/count2.png" alt="" />
+              </div>
+              <h2 class="counter-value" data-count="924">0</h2>
+              <p>Happy Clients</p>
             </div>
-            <div class="col-lg-3 col-6">
-                <div class="cont-box">
-                    <div class="icon">
-                        <img src="assets/images/count1.png" alt="">
-                    </div>
-                    <h2 class="counter-value" data-count="36">0</h2>
-                    <p>Experts Workers</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="cont-box">
+              <div class="icon">
+                <img src="assets/images/count1.png" alt="" />
+              </div>
+              <h2 class="counter-value" data-count="36">0</h2>
+              <p>Experts Workers</p>
             </div>
-            <div class="col-lg-3 col-6">
-                <div class="cont-box count-box2">
-                    <div class="icon">
-                        <img src="assets/images/count4.png" alt="">
-                    </div>
-                    <h2 class="counter-value" data-count="9">0</h2>
-                    <p>Experience</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="cont-box count-box2">
+              <div class="icon">
+                <img src="assets/images/count4.png" alt="" />
+              </div>
+              <h2 class="counter-value" data-count="9">0</h2>
+              <p>Experience</p>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- -------counter-section-end---------- -->
+    <!-- -------counter-section-end---------- -->
 
-     <!-- ====Service-Section-Start==== -->
+    <!-- ====Service-Section-Start==== -->
 
-     <section class="service-section m-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="ser-head">
-                        <span class="under">Our Service</span>
-                        <h2>Safe Xpress Packers And Movers   Popular <br> Services</h2>
-                    </div>
-                </div>
+    <section class="service-section m-100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="ser-head">
+              <span class="under">Our Service</span>
+              <h2>
+                Safe Xpress Packers And Movers Popular <br />
+                Services
+              </h2>
             </div>
-            <div class="row">
-                <div class="col-md-6 mt-4">
-                    <div class="ser-box1">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="ser-item">
-                                    <h4>Household Shifting</h4>
-                                    <p>Our household shifting service is designed to make your residential move a breeze. We understand that moving to a new home can be a daunting task, but with our expertise and dedicated team, we ensure a smooth and hassle-free transition for you and your family.</p>
-                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-5"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="ser-box2">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="ser-item">
-                                    <h4>Office Shifting</h4>
-                                    <p>Our office shifting service is tailored to meet the unique requirements of businesses looking to relocate. We understand the importance of a smooth transition and minimal downtime during the move, and our team is dedicated to ensuring a seamless office ....</p>
-                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-5"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="ser-box3">
-                        <div class="row">
-                            <div class="col-lg-6"></div>
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="ser-item">
-                                    <h4>Domestic relocation</h4>
-                                    <p>Our domestic relocation service is designed to simplify the process of moving within the country. Whether you're moving to a new city or a different state, we provide comprehensive and reliable relocation ....</p>
-                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="ser-box4">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-5"></div>
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="ser-item">
-                                    <h4>Loading and Unloading</h4>
-                                    <p>Safe Xpress Packers And Movers  loading and unloading service is designed to make your moving process easier and more efficient. Whether you are relocating your home or office, our skilled team will handle the heavy lifting for you.</p>
-                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="ser-box5">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="ser-item">
-                                    <h4>Warehousing Service</h4>
-                                    <p>Our warehouse service is designed to provide you with a secure and convenient storage solution for your goods. We offer state-of-the-art warehouses equipped with modern security systems to ensure the safety and protection of your items.</p>
-                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-5"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                    <div class="ser-box6">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-7">
-                                <div class="ser-item">
-                                    <h4>Vehicle Transportation</h4>
-                                    <p>Our vehicle transportation service is designed to safely and efficiently transport your vehicles to your desired destination. Whether you need to move a car, motorcycle, or any other type of vehicle, we have the expertise and resources to handle it.</p>
-                                        <a href="service.html" class="sec-btn"><span>Read More</span></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-5"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-6 mt-4">
+            <div class="ser-box1">
+              <div class="row">
+                <div class="col-xl-6 col-lg-7">
+                  <div class="ser-item">
+                    <h4>Household Shifting</h4>
+                    <p>
+                      Our household shifting service is designed to make your
+                      residential move a breeze. We understand that moving to a
+                      new home can be a daunting task, but with our expertise
+                      and dedicated team, we ensure a smooth and hassle-free
+                      transition for you and your family.
+                    </p>
+                    <a href="service.html" class="sec-btn"
+                      ><span>Read More</span></a
+                    >
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-5"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="ser-box2">
+              <div class="row">
+                <div class="col-xl-6 col-lg-7">
+                  <div class="ser-item">
+                    <h4>Office Shifting</h4>
+                    <p>
+                      Our office shifting service is tailored to meet the unique
+                      requirements of businesses looking to relocate. We
+                      understand the importance of a smooth transition and
+                      minimal downtime during the move, and our team is
+                      dedicated to ensuring a seamless office ....
+                    </p>
+                    <a href="service.html" class="sec-btn"
+                      ><span>Read More</span></a
+                    >
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-5"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="ser-box3">
+              <div class="row">
+                <div class="col-lg-6"></div>
+                <div class="col-xl-6 col-lg-7">
+                  <div class="ser-item">
+                    <h4>Domestic relocation</h4>
+                    <p>
+                      Our domestic relocation service is designed to simplify
+                      the process of moving within the country. Whether you're
+                      moving to a new city or a different state, we provide
+                      comprehensive and reliable relocation ....
+                    </p>
+                    <a href="service.html" class="sec-btn"
+                      ><span>Read More</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="ser-box4">
+              <div class="row">
+                <div class="col-xl-6 col-lg-5"></div>
+                <div class="col-xl-6 col-lg-7">
+                  <div class="ser-item">
+                    <h4>Loading and Unloading</h4>
+                    <p>
+                      Safe Xpress Packers And Movers loading and unloading
+                      service is designed to make your moving process easier and
+                      more efficient. Whether you are relocating your home or
+                      office, our skilled team will handle the heavy lifting for
+                      you.
+                    </p>
+                    <a href="service.html" class="sec-btn"
+                      ><span>Read More</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="ser-box5">
+              <div class="row">
+                <div class="col-xl-6 col-lg-7">
+                  <div class="ser-item">
+                    <h4>Warehousing Service</h4>
+                    <p>
+                      Our warehouse service is designed to provide you with a
+                      secure and convenient storage solution for your goods. We
+                      offer state-of-the-art warehouses equipped with modern
+                      security systems to ensure the safety and protection of
+                      your items.
+                    </p>
+                    <a href="service.html" class="sec-btn"
+                      ><span>Read More</span></a
+                    >
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-5"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4">
+            <div class="ser-box6">
+              <div class="row">
+                <div class="col-xl-6 col-lg-7">
+                  <div class="ser-item">
+                    <h4>Vehicle Transportation</h4>
+                    <p>
+                      Our vehicle transportation service is designed to safely
+                      and efficiently transport your vehicles to your desired
+                      destination. Whether you need to move a car, motorcycle,
+                      or any other type of vehicle, we have the expertise and
+                      resources to handle it.
+                    </p>
+                    <a href="service.html" class="sec-btn"
+                      ><span>Read More</span></a
+                    >
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ====Service-Section-End==== -->
 
     <!-- ===Brand-Section-Start=== -->
 
-<section class="brand-section m-100">
-    <div class="container">
+    <section class="brand-section m-100">
+      <div class="container">
         <h3>Our Partner</h3>
         <div class="brand-slider">
-            <div class="brand-box">
-                <img src="assets/images/clients1.gif" alt="">
-            </div>
-            <div class="brand-box">
-                <img src="assets/images/clients4.gif" alt="">
-            </div>
-            <div class="brand-box">
-                <img src="assets/images/clients6.gif" alt="">
-              </div>
-             <div class="brand-box">
-                  <img src="assets/images/clients9.gif" alt="">
-             </div>
-            <div class="brand-box">
-                <img src="assets/images/clients10.gif" alt="">
-            </div>
-            <div class="brand-box">
-                <img src="assets/images/clients11.gif" alt="">
-            </div>
-            <div class="brand-box">
-                <img src="assets/images/clients14.gif" alt="">
-            </div>
-            <div class="brand-box">
-                <img src="assets/images/clients18.gif" alt="">
-            </div>
-        </div>
-    </div>
-  </section>
-  
-  <!-- ===Brand-Section-End=== -->
-
- <div class="what">
-  <a href=" https://wa.me/919024272714" target="_blank">
-     <i class="fa-brands fa-whatsapp"></i>
-  </a>
-  <a href="tel:+91 9812661365" style="background-color:#ff6b3b;">
-     <i class="fa-solid fa-phone"></i>
-  </a>
- </div>
-
-  <!-- ===testimonial-section-start=== -->
-
-<section class="testimonial-section p-100">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6">
-                <div class="ch-title">
-                    <span class="under">Our Testimonial</span>
-                    <h2>Whats Our Clients Saying <br> About Us </h2>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="ch-text">
-                    <p>
-                        Safe Xpress Packers And Movers  take pride in the positive feedback we receive from our valued clients. Here are some testimonials highlighting their experience with us:</p>
-                </div>
-            </div>
-        </div>
-        <div class="tes-slider">
-            <div class="tes-box">
-                <div class="tes-quote">
-                    <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="ratting">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i>
-                </div>
-                <p>Safe Xpress Packers And Movers  provided an exceptional moving experience for our family. From the initial consultation to the final delivery, their team displayed professionalism and efficiency. Our belongings arrived safely and on time. Highly recommended</p>
-                <div class="tes-info">
-                    <div class="tes-img">
-                        <img src="assets/images/tes.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <h6><b>Aarush Jain</b></h6>
-                        <span>Delhi</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tes-box">
-                <div class="tes-quote">
-                    <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="ratting">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-regular fa-star"></i>
-                </div>
-                <p>We recently relocated our office, and Safe Xpress Packers And Movers  made the process seamless. Their team handled everything with care and precision. They ensured minimal disruption to our business operations, and we were up and running in no time. Thank you for your excellent service!</p>
-                <div class="tes-info">
-                    <div class="tes-img">
-                        <img src="assets/images/tes.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <h6><b>Dev Kumawat</b></h6>
-                        <span>Pune</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tes-box">
-                <div class="tes-quote">
-                    <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="ratting">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star-half-stroke"></i>
-                </div>
-                <p>I had a great experience with Safe Xpress Packers And Movers . They provided excellent communication throughout the stay, making sure all my needs were met. I highly recommend Safe Xpress Packers And Movers  services for smooth and hassle free relocation.</p>
-                <div class="tes-info">
-                    <div class="tes-img">
-                        <img src="assets/images/tes.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <h6><b>Dakshit Pareek</b></h6>
-                        <span>Punjab</span>
-                    </div>
-                </div>
-            </div>
-            <div class="tes-box">
-                <div class="tes-quote">
-                    <i class="fa-solid fa-quote-right"></i>
-                </div>
-                <div class="ratting">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star-half-stroke"></i>
-                </div>
-                <p>I hired Safe Xpress Packers And Movers  for my domestic relocation. The team was punctual, friendly and handled all my belongings with utmost care. They made the whole process stress-free, and I would definitely choose them again for my future moves.</p>
-                <div class="tes-info">
-                    <div class="tes-img">
-                        <img src="assets/images/tes.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <h6><b>Faraj Khan </b></h6>
-                        <span>Lucknow</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ===testimonial-section-end=== -->
-  <!-- ===Areas-section-start=== -->
-   <div class="container-fluid p-4">
-    <div class="row">
-        <h4 class="fw-bold mb-4" style="color: #000">Now in more cities</h4>
-        <div class="row">
-          <div class="">
-            <ul class="Service-area-list p-0">
-              <li>
-                <p>Safexpress Bikaner </p>
-              </li>
-              <li>
-                <p>Safexpress Suratgarh </p>
-              </li>
-              <li>
-                <p>Safexpress Ganganagar </p>
-              </li>
-              <li>
-                <p>Safexpress Jodhpur</p>
-              </li>
-              <li>
-                <p>Safexpress Barmer </p>
-              </li>
-              <li>
-                <p>Safexpress Jaisalmer </p>
-              </li>
-              <li>
-                <p>Safexpress Ahmedabad </p>
-              </li>
-              <li>
-                <p>Safexpress Vadodara </p>
-              </li>
-              <li>
-                <p>Safexpress Surat</p>
-              </li>
-              <li>
-                <p>Safexpress Vapi </p>
-              </li>
-              <li>
-                <p>Safexpress Mumbai </p>
-              </li>
-              <li>
-                <p>Safexpress Pune </p>
-              </li>
-              <li>
-                <p>Safexpress Goa </p>
-              </li>
-              <li>
-                <p>Safexpress Kerala </p>
-              </li>
-              <li>
-                <p>Safexpress Bengaluru </p>
-              </li>
-              <li>
-                <p>Safexpress Chennai </p>
-              </li>
-              <li>
-                <p>Safexpress Andhra Pradesh</p>
-              </li>
-              <li>
-                <p>Safexpress kolkata  </p>
-              </li>
-              <li>
-                <p>Safexpress Guwahati </p>
-              </li>
-              <li>
-                <p>Safexpress Mizoram </p>
-              </li>
-              <li>
-                <p>Safexpress Imphal  </p>
-              </li>
-              <li>
-                <p>Safexpress Manipur </p>
-              </li>
-              <li>
-                <p>Safexpress Tezpur </p>
-              </li>
-              <li>
-                <p>Safexpress patna </p>
-              </li>
-              <li>
-                <p>Safexpress Ranchi </p>
-              </li>
-              <li>
-                <p>Safexpress indor </p>
-              </li>
-              <li>
-                <p>Safexpress Balaghat </p>
-              </li>
-              <li>
-                <p>Safexpress Lucknow </p>
-              </li>
-              <li>
-                <p>Safexpress pithoragarh </p>
-              </li>
-              <li>
-                <p>Safexpress Haldwani </p>
-              </li>
-              <li>
-                <p>Safexpress dehradun </p>
-              </li>
-              <li>
-                <p>Safexpress Himachal </p>
-              </li>
-              <li>
-                <p>SSafexpress Chandigarh </p>
-              </li>
-              <li>
-                <p>Safexpress Amritsar </p>
-              </li>
-              <li>
-                <p>Safexpress jammu </p>
-              </li>
-              <li>
-                <p>Safexpress Delhi </p>
-              </li>
-              <li>
-                <p>Safexpress Gurugone </p>
-              </li>
-              <li>
-                <p>Safexpress Noida </p>
-              </li>
-              <li>
-                <p>Safexpress Udaipur </p>
-              </li>
-              <li>
-                <p>Safexpress jaipur </p>
-              </li>
-              <li>
-                <p>Safexpress Sadulpur Churu </p>
-              </li>
-            
-            </ul>
+          <div class="brand-box">
+            <img src="assets/images/clients1.gif" alt="" />
+          </div>
+          <div class="brand-box">
+            <img src="assets/images/clients4.gif" alt="" />
+          </div>
+          <div class="brand-box">
+            <img src="assets/images/clients6.gif" alt="" />
+          </div>
+          <div class="brand-box">
+            <img src="assets/images/clients9.gif" alt="" />
+          </div>
+          <div class="brand-box">
+            <img src="assets/images/clients10.gif" alt="" />
+          </div>
+          <div class="brand-box">
+            <img src="assets/images/clients11.gif" alt="" />
+          </div>
+          <div class="brand-box">
+            <img src="assets/images/clients14.gif" alt="" />
+          </div>
+          <div class="brand-box">
+            <img src="assets/images/clients18.gif" alt="" />
           </div>
         </div>
-    </div>
-   </div>
-<!-- ===Areas-section-end=== -->
-<!-- ===Footer-Section-Start=== -->
+      </div>
+    </section>
 
-<footer class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-7">
-                    <div class="f-box">
-                        <div class="f-logo">
-                            <img src="assets/images/logo.png" alt="">
-                        </div>
-                        <p>Contact Safe Xpress Packers And Movers  today and let us take the burden off your shoulders. Trust us to handle your move with utmost care and professionalism, ensuring a smooth transition to your new destination.
-                        </p>
-                        <ul class="social-link">
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-5">
-                    <div class="f-box">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="index.html"><span>Home</span></a></li>
-                            <li><a href="about.html"><span>About</span></a></li>
-                            <li><a href="gallery.html"><span>Gallery</span></a></li>
-                            <li><a href="service.html"><span>Service</span></a></li>
-                            <li><a href="pliocy.html"><span>Privacy Policy</span></a></li>
-                            <li><a href="terms.html"><span>Terms & Conditions</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="f-box">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li><i class="fa-solid fa-location-dot"></i><span><b>Head Office : </b> Shop no 2 plot N. 5 Near Somesh vihar colony chhawla BSF Cump New Delhi 110071</span></li>
-                            
-                            <li><i class="fa-solid fa-phone"></i><a href="tel:+91 9024272714">+91 9024272714</a></li>
-                            <li><i class="fa-solid fa-phone"></i><a href="tel:+91 8556840144">+91 8556840144</a></li> 
-                            <li><i class="fa-solid fa-phone"></i><a href="tel:+91  9812661365 ">+91  9812661365 </a></li>
-                            <li><i class="fa-solid fa-envelope"></i><a
-                                    href="mailto:Safexpresspackers01@gmail.com">Safexpresspackers01@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
+    <!-- ===Brand-Section-End=== -->
+
+    <div class="what">
+      <a href=" https://wa.me/919024272714" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="tel:+91 9812661365" style="background-color: #ff6b3b">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+    </div>
+
+    <!-- ===testimonial-section-start=== -->
+
+    <section class="testimonial-section p-100">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6">
+            <div class="ch-title">
+              <span class="under">Our Testimonial</span>
+              <h2>
+                Whats Our Clients Saying <br />
+                About Us
+              </h2>
             </div>
-            <div class="row">
-                <div class="copy-right">
-                    <p>© Copyright 2025 | Powered by Safe Xpress Packers And Movers . and Designed By <a
-                            href="https://standupstartups.com/">Standup Startups</a></p>
-                </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="ch-text">
+              <p>
+                Safe Xpress Packers And Movers take pride in the positive
+                feedback we receive from our valued clients. Here are some
+                testimonials highlighting their experience with us:
+              </p>
             </div>
+          </div>
         </div>
+        <div class="tes-slider">
+          <div class="tes-box">
+            <div class="tes-quote">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="ratting">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p>
+              Safe Xpress Packers And Movers provided an exceptional moving
+              experience for our family. From the initial consultation to the
+              final delivery, their team displayed professionalism and
+              efficiency. Our belongings arrived safely and on time. Highly
+              recommended
+            </p>
+            <div class="tes-info">
+              <div class="tes-img">
+                <img src="assets/images/tes.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h6><b>Aarush Jain</b></h6>
+                <span>Delhi</span>
+              </div>
+            </div>
+          </div>
+          <div class="tes-box">
+            <div class="tes-quote">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="ratting">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-regular fa-star"></i>
+            </div>
+            <p>
+              We recently relocated our office, and Safe Xpress Packers And
+              Movers made the process seamless. Their team handled everything
+              with care and precision. They ensured minimal disruption to our
+              business operations, and we were up and running in no time. Thank
+              you for your excellent service!
+            </p>
+            <div class="tes-info">
+              <div class="tes-img">
+                <img src="assets/images/tes.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h6><b>Dev Kumawat</b></h6>
+                <span>Pune</span>
+              </div>
+            </div>
+          </div>
+          <div class="tes-box">
+            <div class="tes-quote">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="ratting">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>
+              I had a great experience with Safe Xpress Packers And Movers .
+              They provided excellent communication throughout the stay, making
+              sure all my needs were met. I highly recommend Safe Xpress Packers
+              And Movers services for smooth and hassle free relocation.
+            </p>
+            <div class="tes-info">
+              <div class="tes-img">
+                <img src="assets/images/tes.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h6><b>Dakshit Pareek</b></h6>
+                <span>Punjab</span>
+              </div>
+            </div>
+          </div>
+          <div class="tes-box">
+            <div class="tes-quote">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="ratting">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>
+              I hired Safe Xpress Packers And Movers for my domestic relocation.
+              The team was punctual, friendly and handled all my belongings with
+              utmost care. They made the whole process stress-free, and I would
+              definitely choose them again for my future moves.
+            </p>
+            <div class="tes-info">
+              <div class="tes-img">
+                <img src="assets/images/tes.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h6><b>Faraj Khan </b></h6>
+                <span>Lucknow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===testimonial-section-end=== -->
+    <!-- ===Areas-section-start=== -->
+    <div class="container-fluid p-4">
+      <div class="row">
+        <h4 class="fw-bold mb-4" style="color: #000">Now in more cities</h4>
+        <div class="row">
+            <div class="col-lg-3">
+                <ul class="Service-area-list p-0">
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Bikaner</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Suratgarh</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Ganganagar</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Jodhpur</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Barmer</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Jaisalmer</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Ahmedabad</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Vadodara</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Surat</p>
+                    </li>
+                    <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Sadulpur Churu</p>
+                      </li>
+                  </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul class="Service-area-list p-0">
+                   
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Vapi</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Mumbai</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Pune</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Goa</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Kerala</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Bengaluru</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Chennai</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Andhra Pradesh</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress kolkata</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Guwahati</p>
+                    </li>
+                   
+                  </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul class="Service-area-list p-0">
+                   
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Mizoram</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Imphal</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Manipur</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Tezpur</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress patna</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Ranchi</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress indor</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Balaghat</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Lucknow</p>
+                    </li>
+                    <li>
+                      <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress pithoragarh</p>
+                    </li>
+                   
+                  </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul class="Service-area-list p-0">
+                    <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Haldwani</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress dehradun</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Himachal</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Chandigarh</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Amritsar</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress jammu</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Delhi</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Gurugone</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Noida</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress Udaipur</p>
+                      </li>
+                      <li>
+                        <p><span><i class="fa-solid fa-location-dot"></i></span>Safexpress jaipur</p>
+                      </li>
+                   
+                   
+                  </ul>
+            </div>
+        
+        </div>
+      </div>
+    </div>
+    <!-- ===Areas-section-end=== -->
+    <!-- ===Footer-Section-Start=== -->
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-7">
+            <div class="f-box">
+              <div class="f-logo">
+                <img src="assets/images/logo.png" alt="" />
+              </div>
+              <p>
+                Contact Safe Xpress Packers And Movers today and let us take the
+                burden off your shoulders. Trust us to handle your move with
+                utmost care and professionalism, ensuring a smooth transition to
+                your new destination.
+              </p>
+              <ul class="social-link">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5">
+            <div class="f-box">
+              <h4>Quick Links</h4>
+              <ul>
+                <li>
+                  <a href="index.html"><span>Home</span></a>
+                </li>
+                <li>
+                  <a href="about.html"><span>About</span></a>
+                </li>
+                <li>
+                  <a href="gallery.html"><span>Gallery</span></a>
+                </li>
+                <li>
+                  <a href="service.html"><span>Service</span></a>
+                </li>
+                <li>
+                  <a href="pliocy.html"><span>Privacy Policy</span></a>
+                </li>
+                <li>
+                  <a href="terms.html"><span>Terms & Conditions</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="f-box">
+              <h4>Contact Info</h4>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i
+                  ><span
+                    ><b>Head Office : </b> Shop no 2 plot N. 5 Near Somesh vihar
+                    colony chhawla BSF Cump New Delhi 110071</span
+                  >
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-phone"></i
+                  ><a href="tel:+91 9024272714">+91 9024272714</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i
+                  ><a href="tel:+91 8556840144">+91 8556840144</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i
+                  ><a href="tel:+91  9812661365 ">+91 9812661365 </a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i
+                  ><a href="mailto:Safexpresspackers01@gmail.com"
+                    >Safexpresspackers01@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copy-right">
+            <p>
+              © Copyright 2025 | Powered by Safe Xpress Packers And Movers . and
+              Designed By
+              <a href="https://standupstartups.com/">Standup Startups</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
 
-  <!-- ===Footer-Section-End=== -->
-    
+    <!-- ===Footer-Section-End=== -->
+
     <!-- ===Script-Section=== -->
 
     <script src="assets/js/jquery-3.6.0.js"></script>
@@ -887,6 +1370,5 @@
     <script src="assets/js/script.js"></script>
 
     <!-- ===Script-Section=== -->
-
-</body>
+  </body>
 </html>
