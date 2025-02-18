@@ -421,13 +421,16 @@ header {
 }
 .hero-section .hero-slide{
   padding: 10px 0px;
-  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider1.png.jpg);
+  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider-1.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
 }
 .hero-section .hero-slide2{
-  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider2.png.jpg) !important;
+  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider-2.jpg) !important;
+}
+.hero-section .hero-slide3{
+  background-image: linear-gradient(#00bf638e,#00bf638e),url(../images/slider-3.jpg) !important;
 }
 .hero-section .hero-slide h2{
   line-height: 60px;
