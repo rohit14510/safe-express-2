@@ -432,6 +432,21 @@ header {
 .hero-section .hero-slide3{
   background-image:url(../images/slider-3.jpg) !important;
 }
+@media screen and (max-width:768px) {
+  .hero-section .hero-slide{
+    padding: 10px 0px;
+    background-image:url(../images/blank-cargo-truck-road.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  .hero-section .hero-slide2{
+    background-image:url(../images/mobileslider.jpg) !important;
+  }
+  .hero-section .hero-slide3{
+    background-image:url(../images/mobileslider-1.jpg) !important;
+  }
+}
 .hero-section .hero-slide h2{
   line-height: 60px;
   font-size: 54px;
